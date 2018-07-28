@@ -1,7 +1,8 @@
-const documentRouter = require('./documentRouter');
-const tagRouter = require('./tagRouter');
+const express = require('express');
+const router = express.Router();
 
-module.exports = (app) => {
-    app.use('/document', documentRouter);
-    app.use('/tag', tagRouter);
-};
+router.get('/', (requestAnimationFrame, res) => {
+    res.send('hello');
+});
+
+module.exports = router;
