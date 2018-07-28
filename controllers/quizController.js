@@ -56,7 +56,7 @@ exports.checkAnswer = (req, res, next) => {
         console.log(id_answer);
         if(data.options[id_answer].is_true == true){
             res.status(200).jsonp({
-                message: 'check one ' + id + ' quiz answers' + id_answer,
+                message: data.options[id_answer].explain,
                 code: 200,
                 data: true,
             });
