@@ -15,6 +15,9 @@
     "http-errors": "~1.6.2",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
+    "mongoose": "^5.2.5",
+    "mongoose-query-random": "^1.0.1",
+    "mongoose-sequence": "^4.0.1",
     "morgan": "~1.9.0",
     "run-sequence": "^2.2.1",
     "textrank-node": "^0.1.9"
