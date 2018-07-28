@@ -1,8 +1,8 @@
 var settings = {
     site_version: "1.0.0",
-    site_name: 'BKFA Document',
-    site_title: 'bkfa.net',
-    site_description: 'Website tài liệu lớn nhất Việt Nam - Top1',
+    site_name: 'Kids Bank Chat bot',
+    site_title: 'kidsbank.vn',
+    site_description: 'Chat bot',
 }
 
 module.exports = settings;

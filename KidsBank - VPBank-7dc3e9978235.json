@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kidsbank-vpbank",
+  "private_key_id": "7dc3e9978235db09d040e698472f97be2f006c63",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0MjcEiQSwdqIl\nCuOg9DAbiPdnA4ShVNZY/N6PW4Drmn3U5qDHMReYLfigo6Oav5Nhbel6Kaln5CKj\ntS0agR3OAYpxHPm+ag+RbU8Zp2ME7Tx1XZt2AKjU+5y75Ugz86VKwd5xMssgvbSX\nA507g3S5p3I2FZemDm+E+Apvd2U4Nt9OHD+K860Cneit868Ox/KsYYLLEZeOpQ2O\nmSoDPBnNehR43pv3JDfxOOIeLe3aGPm0cWpSv0tOi41LZqKt+44Qc/zQU4hBA4Yv\nGseWNS1sazc6AXIrEJQnmlfCKeN1Dlq5XwBSLjjDF4i9tXScn2uj05hCFzqUC5kH\n4QMp1XbJAgMBAAECggEAAexzzyf1zXr0u+u/9pbIwTB/AKHmW3EMCT7o0tO1nn5D\nl99e6cV1xKV//RoGG/et13lMh+X0NaRXNNNxL/JfKrT0QQUfyuc3s5Qcxy+05Edy\nkOevCk1TQBPQDmbyFIDmO7QyX1e9GKRBzmdm2Szr9PPrSZXFLMwEZ4Fc3igCg/04\nUahhmudswPpvpEEwXBhtrv8gnMOjCUmUzM8kNFgqfUINX3dS7K8MhXoielkOa60L\nMn/sKplGtLlP6Q6PaGnVbvHSO9W1tbJd5HSI2y2rOXwpl+RBAc08YJg2tviqyIr0\nXi+gs5FUSUeaNC7nEu6I0GOWHdgOCJKHjhZT1fwJMQKBgQD+02djV6PrGrSFCVpj\nytkyVZ9fkXcrGeeyj0eV3RJNw1q60WQGSjV4JmuwZEDkW4BqBTgMjjLxLydOr5g0\nrZiQmsUMu8aCdWdZmNEji3Yw0HvdhDZnCJP9/5+t61sCQisd6awcbGe/DE6SdOMH\nneyl32z9Jfsv+CS6rOJHfADikQKBgQC1BsbgZT9TQOVGTONZVyEB9KwNN/T3zddw\nt7aQoeNrjvp7ijm4qbHjI4X+00xlTHqxyiqIKOuPaIVykfADzkKSVD8h+E4R2910\n363sag54dY5DmTdvjoY3uMzy3KkBmLTkHjvfkoT8Nm/ecQh8g+VQv+i7D5saV6Ly\nEmej6vv8uQKBgGs5GO+8GMT8X6j63oXO/MUpMf5MfxArvkpr73snomQGJ08kfCoJ\nX6ZGxFlcVdHAjrANsh/WVakWZju9txWzVdbCyNcqy8RpEiupGZcTP5AaqYPz9dA0\n09C0lsPfnFO+89WKVVlAZAcHbqhBdqXl1YWWFY4PRTpR92J1DGF31AeBAoGAbK5+\n4+WlWSRTAhvTOqX2qSfty5nWtpecSo3hS4AF+2NBur3H3bfzlnyTS+Qrr311BBxt\n4IVAtz53L8uyH3bLvPJbXNeod0xa7noD/zXFLkjVenwYLh+RMQ7/7KbRyKWXpIUK\nSTW8JXfBPfj6sVa2a/5riTLbWbtXlqG6G01Or/ECgYEAi6Z5QZoGde8/6+hdO8Qs\nIfxVbofuLSsePshMuprw3YATLQkRo12X/8N5od1sVdp17PTX6kDDT3J81Jc3Trdj\nYMsPErGnNOrXycmc621hlQ3RnMbHEnTRmOsEouTrIjQEkcxmOjlaonls4vLRiMyt\nfV/nw1DRzYg2QFg+qj0XqYs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kidsbank-vpbank@appspot.gserviceaccount.com",
+  "client_id": "117581105604395336267",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kidsbank-vpbank%40appspot.gserviceaccount.com"
+}
