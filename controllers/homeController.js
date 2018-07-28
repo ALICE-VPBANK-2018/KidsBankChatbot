@@ -3,4 +3,4 @@ exports.index = function(req, res, next){
 		code: 200,
 		data: "hello"
 	});
-}
+};

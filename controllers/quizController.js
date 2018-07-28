@@ -1,8 +1,5 @@
-const Document = require('../models/document');
+const Quiz = require('../models/quiz');
 const func = require('../config/function');
-const fileController = require('./fileController');
-const uploadFile = fileController.uploadFile;
-const uploadImg = fileController.uploadImg;
 
 const Router = require('express');
 const router = new Router();
@@ -10,22 +7,26 @@ const bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
 
-// get all document data
+// get all quiz data
 exports.getAll = (req, res, next) => {
-    Document.find().then((data) => {
-            res.status(200).jsonp({
-                message: 'Get all documents.',
-                code: 200,
-                data: data,
-            });
-        }
-    );
+    limitrecords = req.params.size;
+    level = req.params.level;
+    function getRandomArbitrary(min, max) {
+        return Math.ceil(Math.random() * (max - min) + min);
+    }
+    Quiz.count({level: level},function(err,count){
+       var skipRecords = getRandomArbitrary(1, count-limitrecords);
+       query.skip(skipRecords); // Random Offset
+       query.exec(function(err,result){
+         console.log(result);  // 10 random users 
+       });
+    });
 };
 
 // get one document by id
 exports.findById = (req, res, next) => {
     const id = req.params.id;
-    Document.findById(id).then((data) => {
+    Quiz.findById(id).then((data) => {
             res.status(200).jsonp({
                 message: 'Get ' + id + ' documents.',
                 code: 200,
