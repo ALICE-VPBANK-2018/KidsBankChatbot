@@ -10,6 +10,7 @@ const database = require('./config/database');
 
 const indexRouter = require('./routes/indexRouter');
 const quizRouter = require('./routes/quizRouter');
+const documentRouter = require('./routes/documentRouter');
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/quiz', quizRouter);
+app.use('/document', documentRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

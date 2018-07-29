@@ -3,6 +3,6 @@ var settings = {
     site_name: 'Kids Bank Chat bot',
     site_title: 'kidsbank.vn',
     site_description: 'Chat bot',
-}
+};
 
 module.exports = settings;
