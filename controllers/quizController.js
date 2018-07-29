@@ -35,6 +35,22 @@ exports.findById = (req, res, next) => {
     );
 };
 
+// get quizs by level
+exports.getByLevel = (req, res, next) => {
+    const level = req.params.level;
+    const limit = parseInt(req.params.limit);
+    const offset = parseInt(req.params.offset);
+    console.log(level + limit + offset);
+    Quiz.find({'level': level}).limit(limit).skip(offset).then((data) => {
+            res.status(200).jsonp({
+                message: 'Get quiz.',
+                code: 200,
+                data: data,
+            });
+        }
+    );
+};
+
 // get one quiz random
 exports.getOneRandom = (req, res, next) => {
     Quiz.find().random(1, true, function(err, data) {
